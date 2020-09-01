@@ -1,0 +1,24 @@
+Version   : 6.1.01
+Date      : Mon, 8 Oct 2012 12:41:07 +0200
+OS        : Microsoft Windows XP
+RAD       : BDS 7.0
+Dump      : $8B $30 $43 $EB $01 $43 $8B $07 $8B $40 $08 $48 $3B $D8 $7F $22 $8B $07 $8B $D3 $E8 $5C $D3 $01 $00 $0F $B6 $00 $04 $FE $2C $03 
+Section   : 4
+LastExcept: EAccessViolation
+Address   : $0049148B - [00400000] apsScan.exe - ExceptionLog.pas -  - NextItem - 6787[7]
+Exception : EAccessViolation
+Message   : Access violation at address 0049148B in module 'apsScan.exe'. Read of address 00000000
+Call Stack: 00 $00491464 - [00400000] apsScan.exe - ExceptionLog.pas -  - NextItem - 6780[0]
+            01 $00491616 - [00400000] apsScan.exe - ExceptionLog.pas -  - PurgeCallStack - 6840[20]
+            02 $0044A404 - [00400000] apsScan.exe - ECore.pas -  - GetReadableSize - 945[0]
+            03 $0044A4A6 - [00400000] apsScan.exe - ECore.pas -  - IsValidBlockAddr - 964[1]
+            04 $00491564 - [00400000] apsScan.exe - ExceptionLog.pas -  - PurgeCallStack - 6820[0]
+            05 $00491A2B - [00400000] apsScan.exe - ExceptionLog.pas -  - CallStackByAddresses - 6984[115]
+            06 $00491760 - [00400000] apsScan.exe - ExceptionLog.pas -  - CallStackByAddresses - 6869[0]
+            07 $00491A7F - [00400000] apsScan.exe - ExceptionLog.pas -  - GetCallStackByAddresses - 6993[2]
+            08 $00491A3C - [00400000] apsScan.exe - ExceptionLog.pas -  - GetCallStackByAddresses - 6991[0]
+            09 $004AB682 - [00400000] apsScan.exe - ExceptionLog.pas -  - InternalExceptNotify - 14504[183]
+            0A $004AB11C - [00400000] apsScan.exe - ExceptionLog.pas -  - InternalExceptNotify - 14321[0]
+            0B $004AC932 - [00400000] apsScan.exe - ExceptionLog.pas - TExceptionThread - Execute - 14952[2]
+            0C $004406FA - [00400000] apsScan.exe 
+            0D $004066C4 - [00400000] apsScan.exe 

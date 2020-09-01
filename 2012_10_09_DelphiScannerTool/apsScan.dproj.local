@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010/03/02 16:13:34.098.pas,W:\bfc\php\aps_scan\src.2009\Unit1.pas=</Transaction>
+    <Transaction>2010/03/02 16:13:34.098.dfm,W:\bfc\php\aps_scan\src.2009\Unit1.dfm=</Transaction>
+    <Transaction>2010/03/02 16:40:22.141.pas,P:\project\archive\Delphi2009_scaner\unTranslate.pas=</Transaction>
+    <Transaction>2010/03/02 16:40:22.151.pas,P:\project\archive\Delphi2009_scaner\unScanThread.pas=</Transaction>
+    <Transaction>2010/03/02 16:40:22.151.pas,P:\project\archive\Delphi2009_scaner\unAbout.pas=</Transaction>
+    <Transaction>2010/03/02 16:40:22.151.dfm,P:\project\archive\Delphi2009_scaner\unAbout.dfm=</Transaction>
+    <Transaction>2012/10/08 20.13.14.843.pas,C:\Archivio\Delphi\Programmi\Delphi2009_scaner\delphitwain\Twain.pas=</Transaction>
+    <Transaction>2012/10/08 20.17.27.734.pas,C:\Archivio\Delphi\Programmi\Delphi2009_scaner\delphitwain\Twain.pas=</Transaction>
+    <Transaction>2012/10/08 20.17.35.781.pas,C:\Archivio\Delphi\Programmi\Delphi2009_scaner\delphitwain\DelphiTwainUtils.pas=</Transaction>
+    <Transaction>2012/10/08 20.17.38.218.pas,C:\Archivio\Delphi\Programmi\Delphi2009_scaner\delphitwain\DelphiTwain.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

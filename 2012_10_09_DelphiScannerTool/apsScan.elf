@@ -1,0 +1,203 @@
+EurekaLog 6.1.01
+
+Application:
+------------------------------------------------------
+  1.1 Start Date      : Mon, 8 Oct 2012 12:48:24 +0200
+  1.2 Name/Description: apsScan.exe
+  1.3 Version Number  : 
+  1.4 Parameters      : 
+  1.5 Compilation Date: Mon, 8 Oct 2012 12:48:23 +0200
+  1.6 Up Time         : 18 seconds
+
+Exception:
+-------------------------------------------------------------
+  2.1 Date          : Mon, 8 Oct 2012 12:48:42 +0200
+  2.2 Address       : 
+  2.3 Module Name   : apsScan.exe
+  2.4 Module Version: 
+  2.5 Type          : EMemoryLeak
+  2.6 Message       : Memory Leak: Total size=940 - Count=10.
+  2.7 ID            : 5493
+  2.8 Count         : 1
+  2.9 Status        : New
+  2.10 Note         : 
+
+User:
+-------------------------------------------------------
+  3.1 ID        : Mario
+  3.2 Name      : Mario
+  3.3 Email     : 
+  3.4 Company   : 
+  3.5 Privileges: SeShutdownPrivilege             - OFF
+                  SeChangeNotifyPrivilege         - ON
+                  SeSecurityPrivilege             - OFF
+                  SeBackupPrivilege               - OFF
+                  SeRestorePrivilege              - OFF
+                  SeSystemtimePrivilege           - OFF
+                  SeRemoteShutdownPrivilege       - OFF
+                  SeTakeOwnershipPrivilege        - OFF
+                  SeDebugPrivilege                - ON
+                  SeSystemEnvironmentPrivilege    - OFF
+                  SeSystemProfilePrivilege        - OFF
+                  SeProfileSingleProcessPrivilege - OFF
+                  SeIncreaseBasePriorityPrivilege - OFF
+                  SeLoadDriverPrivilege           - ON
+                  SeCreatePagefilePrivilege       - OFF
+                  SeIncreaseQuotaPrivilege        - OFF
+                  SeUndockPrivilege               - ON
+                  SeManageVolumePrivilege         - OFF
+                  SeImpersonatePrivilege          - ON
+                  SeCreateGlobalPrivilege         - ON
+
+Active Controls:
+-------------------------------------------------------------------------------------
+  4.1 Form Class   : TAppBuilder
+  4.2 Form Text    : apsScan - Embarcadero RAD Studio 2010 - unMain [Running] [Built]
+  4.3 Control Class: 
+  4.4 Control Text : 
+
+Computer:
+---------------------------------------------------------------------------------
+  5.1 Name          : TM8106WLMI
+  5.2 Total Memory  : 2046 Mb
+  5.3 Free Memory   : 1183 Mb
+  5.4 Total Disk    : 68.36 Gb
+  5.5 Free Disk     : 27.18 Gb
+  5.6 System Up Time: 2 days, 23 hours, 31 minutes, 41 seconds
+  5.7 Processor     : Intel(R) Pentium(R) M processor 2.26GHz
+  5.8 Display Mode  : 1680 x 1050, 32 bit
+  5.9 Display DPI   : 96
+  5.10 Video Card   : ATI MOBILITY RADEON X700 (driver 6.14.10.6497 - RAM 128 MB)
+  5.11 Printer      : hp psc 700 series (driver 2,80,0,0)
+
+Operating System:
+------------------------------------
+  6.1 Type    : Microsoft Windows XP
+  6.2 Build # : 2600
+  6.3 Update  : 
+  6.4 Language: Italian
+  6.5 Charset : 0
+
+Network:
+---------------------------------------------------------------------
+  7.1 IP Address: 169.254.073.085 - 000.000.000.000 - 192.168.001.151
+  7.2 Submask   : 255.255.000.000 - 000.000.000.000 - 255.255.255.000
+  7.3 Gateway   : 000.000.000.000 - 000.000.000.000 - 192.168.001.254
+  7.4 DNS 1     : 000.000.000.000 - 000.000.000.000 - 192.168.001.254
+  7.5 DNS 2     : 000.000.000.000 - 000.000.000.000 - 000.000.000.000
+  7.6 DHCP      : ON              - ON              - ON             
+
+Call Stack Information:
+-----------------------------------------------------------------
+|Address |Module     |Unit      |Class  |Procedure/Method|Line  |
+-----------------------------------------------------------------
+|+Memory Leak: Type=TBitmap; Total size=340; Count=5            |
+|---------------------------------------------------------------|
+|00554FA5|apsScan.exe|unMain.pas|TfmMain|SZRotateBmp90   |343[1]|
+|0055484E|apsScan.exe|unMain.pas|TfmMain|BotFlipVrtClick |113[5]|
+|---------------------------------------------------------------|
+|                                                               |
+|+Memory Leak: Type=TBitmapImage; Total size=600; Count=5       |
+|---------------------------------------------------------------|
+|004CA50F|apsScan.exe|          |       |                |      |
+-----------------------------------------------------------------
+
+Modules Information:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Handle  |Name        |Description                                     |Version         |Size   |Modified           |Path                                                                                                |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|00400000|apsScan.exe |                                                |                |1597440|2012-10-08 12.48.24|C:\Documents and Settings\Mario\Desktop\Delphi2009_scaner                                           |
+|01170000|xpsp2res.dll|Messaggi del Service Pack 2                     |5.1.2600.5512   |2962432|2008-04-13 11.37.14|C:\WINDOWS\system32                                                                                 |
+|5B180000|uxtheme.dll |Libreria UxTheme di Microsoft                   |6.0.2900.5512   |219648 |2008-04-13 19.13.56|C:\WINDOWS\system32                                                                                 |
+|5D4D0000|comctl32.dll|Common Controls Library                         |5.82.2900.6028  |617472 |2010-08-23 18.12.18|C:\WINDOWS\system32                                                                                 |
+|719D0000|mswsock.dll |Service Provider Microsoft Windows Sockets 2.0  |5.1.2600.5625   |247296 |2008-06-20 18.02.46|C:\WINDOWS\system32                                                                                 |
+|71A20000|WS2HELP.dll |Helper di Windows Socket 2.0 per Windows NT     |5.1.2600.5512   |19968  |2008-04-13 19.13.58|C:\WINDOWS\system32                                                                                 |
+|71A30000|WS2_32.dll  |Windows Socket 2.0 32-Bit DLL                   |5.1.2600.5512   |82432  |2008-04-13 19.13.58|C:\WINDOWS\system32                                                                                 |
+|71A50000|wsock32.dll |DLL Windows Socket 32-Bit                       |5.1.2600.5512   |24576  |2008-04-13 19.13.58|C:\WINDOWS\system32                                                                                 |
+|72F70000|winspool.drv|Driver dello spooler di Windows                 |5.1.2600.5512   |146944 |2008-04-13 19.14.30|C:\WINDOWS\system32                                                                                 |
+|752E0000|msctfime.ime|Microsoft Text Frame Work Service IME           |5.1.2600.5512   |177152 |2008-04-13 19.12.30|C:\WINDOWS\system32                                                                                 |
+|76330000|msimg32.dll |GDIEXT Client DLL                               |5.1.2600.5512   |4608   |2008-04-13 19.13.46|C:\WINDOWS\system32                                                                                 |
+|76340000|IMM32.DLL   |Windows XP IMM32 API Client DLL                 |5.1.2600.5512   |110080 |2008-04-13 19.13.42|C:\WINDOWS\system32                                                                                 |
+|76360000|comdlg32.dll|DLL delle finestre di dialogo comuni            |6.0.2900.5512   |281088 |2008-04-13 19.13.38|C:\WINDOWS\system32                                                                                 |
+|76BB0000|PSAPI.DLL   |Process Status Helper                           |5.1.2600.5512   |23040  |2008-04-13 19.13.50|C:\WINDOWS\system32                                                                                 |
+|76F90000|CLBCATQ.DLL |                                                |2001.12.4414.700|498688 |2008-04-13 19.13.38|C:\WINDOWS\system32                                                                                 |
+|77010000|COMRes.dll  |                                                |2001.12.4414.700|845824 |2008-04-13 19.13.38|C:\WINDOWS\system32                                                                                 |
+|770F0000|oleaut32.dll|                                                |5.1.2600.6058   |551936 |2010-12-20 19.32.06|C:\WINDOWS\system32                                                                                 |
+|773A0000|comctl32.dll|User Experience Controls Library                |6.0.2900.6028   |1054208|2010-08-23 18.12.14|C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202|
+|774B0000|ole32.dll   |Microsoft OLE per Windows                       |5.1.2600.6010   |1287680|2010-07-16 14.05.18|C:\WINDOWS\system32                                                                                 |
+|778F0000|SETUPAPI.dll|API dell'installazione di Windows               |5.1.2600.5512   |1001472|2008-04-13 19.13.50|C:\WINDOWS\system32                                                                                 |
+|77BD0000|version.dll |Version Checking and File Installation Libraries|5.1.2600.5512   |18944  |2008-04-13 19.13.56|C:\WINDOWS\system32                                                                                 |
+|77BE0000|msvcrt.dll  |Windows NT CRT DLL                              |7.0.2600.5512   |343040 |2008-04-13 19.13.48|C:\WINDOWS\system32                                                                                 |
+|77DA0000|RPCRT4.dll  |Remote Procedure Call Runtime                   |5.1.2600.6022   |590848 |2010-08-16 10.44.28|C:\WINDOWS\system32                                                                                 |
+|77E40000|GDI32.dll   |GDI Client DLL                                  |5.1.2600.5698   |286720 |2008-10-23 13.36.14|C:\WINDOWS\system32                                                                                 |
+|77E90000|SHLWAPI.dll |Libreria leggera di utilità per la shell        |6.0.2900.5912   |474624 |2009-12-08 10.23.28|C:\WINDOWS\system32                                                                                 |
+|77F10000|Secur32.dll |Security Support Provider Interface             |5.1.2600.5834   |56832  |2009-06-25 10.25.24|C:\WINDOWS\system32                                                                                 |
+|77F40000|ADVAPI32.dll|API Windows 32 Base avanzato                    |5.1.2600.5755   |683520 |2009-02-09 12.51.44|C:\WINDOWS\system32                                                                                 |
+|7C800000|kernel32.dll|DLL client di Windows NT BASE API               |5.1.2600.5781   |1033728|2009-03-21 16.07.00|C:\WINDOWS\system32                                                                                 |
+|7C910000|ntdll.dll   |DLL del livello NT                              |5.1.2600.6055   |739840 |2010-12-09 16.15.26|C:\WINDOWS\system32                                                                                 |
+|7C9D0000|shell32.dll |DLL comune della shell di Windows               |6.0.2900.6072   |8491520|2011-01-21 15.44.08|C:\WINDOWS\system32                                                                                 |
+|7E390000|USER32.dll  |Windows XP USER API Client DLL                  |5.1.2600.5512   |579584 |2008-04-13 19.13.56|C:\WINDOWS\system32                                                                                 |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processes Information:
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|ID  |Name                |Description                                                        |Version        |Memory   |Priority|Threads|Path                                                                                  |
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|4   |System              |                                                                   |               |45056    |Normal  |122    |                                                                                      |
+|356 |CtrlAppunti.exe     |                                                                   |               |2375680  |Normal  |1      |C:\Archivio\PrgApp                                                                    |
+|428 |svchost.exe         |Generic Host Process for Win32 Services                            |5.1.2600.5512  |745472   |Normal  |4      |C:\WINDOWS\system32                                                                   |
+|440 |PrgAppPrj.exe       |                                                                   |               |4857856  |Normal  |2      |C:\Archivio\PrgApp                                                                    |
+|444 |MyPhoneExplorer.exe |MyPhoneExplorer                                                    |1.8.0.4        |28028928 |Normal  |6      |C:\Programmi\MyPhoneExplorer                                                          |
+|652 |adb.exe             |                                                                   |               |1400832  |Normal  |4      |C:\Programmi\MyPhoneExplorer\DLL                                                      |
+|680 |anbmServ.exe        |Service Program for Acer eManager                                  |3.0.6.9        |811008   |Normal  |5      |C:\Acer\eManager                                                                      |
+|884 |smss.exe            |                                                                   |               |61440    |Normal  |3      |\SystemRoot\System32                                                                  |
+|924 |crypserv.exe        |                                                                   |               |221184   |High    |3      |C:\WINDOWS\system32                                                                   |
+|936 |csrss.exe           |                                                                   |               |3956736  |Normal  |19     |C:\WINDOWS\system32                                                                   |
+|960 |winlogon.exe        |                                                                   |               |4595712  |High    |21     |C:\WINDOWS\system32                                                                   |
+|1004|services.exe        |Applicazione Servizi e Controller                                  |5.1.2600.5755  |2551808  |Normal  |17     |C:\WINDOWS\system32                                                                   |
+|1024|lsass.exe           |LSA Shell (Export Version)                                         |5.1.2600.5512  |2531328  |Normal  |21     |C:\WINDOWS\system32                                                                   |
+|1136|cvpnd.exe           |Cisco Systems VPN Client                                           |               |2506752  |Normal  |4      |C:\Programmi\Cisco Systems\VPN Client                                                 |
+|1180|Ati2evxx.exe        |ATI External Event Utility EXE Module                              |6.14.10.4110   |610304   |Normal  |5      |C:\WINDOWS\system32                                                                   |
+|1200|svchost.exe         |Generic Host Process for Win32 Services                            |5.1.2600.5512  |1945600  |Normal  |21     |C:\WINDOWS\system32                                                                   |
+|1276|svchost.exe         |Generic Host Process for Win32 Services                            |5.1.2600.5512  |2801664  |Normal  |12     |C:\WINDOWS\system32                                                                   |
+|1344|MsMpEng.exe         |Antimalware Service Executable                                     |4.0.1526.0     |4120576  |Normal  |11     |C:\Programmi\Microsoft Security Client                                                |
+|1392|svchost.exe         |Generic Host Process for Win32 Services                            |5.1.2600.5512  |14131200 |Normal  |80     |C:\WINDOWS\System32                                                                   |
+|1436|svchost.exe         |Generic Host Process for Win32 Services                            |5.1.2600.5512  |1507328  |Normal  |5      |C:\WINDOWS\system32                                                                   |
+|1492|Notepad2.exe        |Notepad2 (Bookmark Edition)                                        |4.1.24.2       |393216   |Normal  |1      |C:\Programmi\NotePad2                                                                 |
+|1600|svchost.exe         |Generic Host Process for Win32 Services                            |5.1.2600.5512  |1847296  |Normal  |6      |C:\WINDOWS\system32                                                                   |
+|1620|apsScan.exe         |                                                                   |               |19996672 |Normal  |5      |C:\Documents and Settings\Mario\Desktop\Delphi2009_scaner                             |
+|1660|svchost.exe         |Generic Host Process for Win32 Services                            |5.1.2600.5512  |1417216  |Normal  |12     |C:\WINDOWS\system32                                                                   |
+|1892|Ati2evxx.exe        |ATI External Event Utility EXE Module                              |6.14.10.4110   |983040   |Normal  |5      |C:\WINDOWS\system32                                                                   |
+|2020|spoolsv.exe         |Spooler SubSystem App                                              |5.1.2600.6024  |3584000  |Normal  |20     |C:\WINDOWS\system32                                                                   |
+|2076|Explorer.EXE        |Esplora risorse                                                    |6.0.2900.5512  |10928128 |Normal  |29     |C:\WINDOWS                                                                            |
+|2164|SR_GUI.Exe          |SecureClient Application                                           |1.0.0.1        |192512   |Normal  |8      |C:\Programmi\CheckPoint\SecuRemote\bin                                                |
+|2220|SR_Service.exe      |SecureClient Service                                               |1.0.0.1        |1445888  |Normal  |22     |C:\Programmi\CheckPoint\SecuRemote\bin                                                |
+|2504|SR_WatchDog.exe     |                                                                   |54.8.0.311     |151552   |Normal  |2      |C:\Programmi\CheckPoint\SecuRemote\bin                                                |
+|2524|svchost.exe         |Generic Host Process for Win32 Services                            |5.1.2600.5512  |3883008  |Normal  |12     |C:\WINDOWS\system32                                                                   |
+|2772|epm-dm.exe          |Acer EPM Device Manager                                            |0.2.5.5        |1261568  |Normal  |6      |C:\acer\epm                                                                           |
+|2868|QtZgAcer.EXE        |Launch Manager                                                     |0.0.4.1209     |860160   |Normal  |3      |C:\Programmi\Launch Manager                                                           |
+|2908|alg.exe             |Application Layer Gateway Service                                  |5.1.2600.5512  |688128   |Normal  |6      |C:\WINDOWS\System32                                                                   |
+|3020|MSACCESS.EXE        |Microsoft Access                                                   |8.0.0.3512     |1916928  |Normal  |6      |C:\Programmi\Office97\Office                                                          |
+|3024|atiptaxx.exe        |ATI Desktop Control Panel                                          |6.14.10.5134   |483328   |Normal  |2      |C:\Programmi\ATI Technologies\ATI Control Panel                                       |
+|3104|hqtray.exe          |VMware Host Network Access Status Tray Application                 |7.0.1.11056    |704512   |Normal  |2      |C:\Programmi\VMware\VMware Player                                                     |
+|3132|Example.exe         |                                                                   |               |991232   |Normal  |2      |C:\DOCUME~1\Mario\IMPOST~1\Temp\Directory temporanea 3 per fullfeatures.zip           |
+|3144|dexplore.exe        |Microsoft Document Explorer                                        |9.0.21022.8    |25632768 |Normal  |12     |C:\Programmi\File comuni\Microsoft Shared\Help 9                                      |
+|3168|msseces.exe         |Microsoft Security Client User Interface                           |4.0.1526.0     |4501504  |Normal  |6      |C:\Programmi\Microsoft Security Client                                                |
+|3212|StatusClient.exe    |Hewlett-Packard T-TR Status Client                                 |0.0.0.13       |2252800  |Normal  |7      |C:\Programmi\Hewlett-Packard\Toolbox2.0\Apache Tomcat 4.0\webapps\Toolbox\StatusClient|
+|3256|wudfhost.exe        |Windows Driver Foundation - User-mode Driver Framework Host Process|6.0.5716.32    |3952640  |Normal  |8      |C:\WINDOWS\System32                                                                   |
+|3408|vswitch.exe         |VistaSwitcher                                                      |1.1.2.0        |4788224  |High    |4      |C:\Programmi\VistaSwitcher                                                            |
+|3448|wscntfy.exe         |Windows Security Center Notification App                           |5.1.2600.5512  |303104   |Normal  |1      |C:\WINDOWS\system32                                                                   |
+|3620|bds.exe             |Embarcadero RAD Studio for Windows                                 |14.0.3615.26342|103825408|Normal  |19     |C:\Programmi\Embarcadero\RAD Studio\7.0\bin                                           |
+|3832|firefox.exe         |Firefox                                                            |15.0.1.4631    |268554240|Normal  |45     |C:\Programmi\Mozilla Firefox                                                          |
+|4008|HPBPRO.EXE          |PortResolver Module                                                |1.0.42.0       |2715648  |Normal  |5      |C:\WINDOWS\system32                                                                   |
+|4020|delphi32.exe        |Delphi-32 Development Environment                                  |7.0.4.453      |4251648  |Normal  |6      |C:\Programmi\Borland\Delphi7\Bin                                                      |
+|4048|plugin-container.exe|Plugin Container for Firefox                                       |15.0.1.4631    |14110720 |Normal  |5      |C:\Programmi\Mozilla Firefox                                                          |
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Assembler Information:
+----------------------
+
+Registers:
+----------
+
+
